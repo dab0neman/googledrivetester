@@ -1,0 +1,29 @@
+# Google / OAuth credentials
+client_secret.json
+credentials.json
+token.json
+
+# rclone configuration and credentials
+rclone.conf
+
+# Environment/secrets files
+.env
+.env.*
+
+# Private keys
+*.key
+*.pem
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Test data and generated results
+testdata/
+results/
+*.log
